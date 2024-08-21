@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1;
+  color: #212529;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.letters {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.letters > div {
+  padding: 1.5rem;
+  height: 7rem;
+  width: 28rem;
+  border: 2px solid #000;
+  border-collapse: separate;
+  text-align: center;
+}
+
+div {
+  font-size: 2rem;
+}
+
+div > span {
+  display: block;
+  text-align: center;
+}
+
+span {
+  margin-top: 0.7rem;
+}
+
+textarea {
+  width: 56rem;
+  height: 14rem;
+  resize: none;
+  outline: none;
+  border: 2px solid #000;
+}
