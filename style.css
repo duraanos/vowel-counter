@@ -9,9 +9,10 @@ html {
 }
 
 body {
+  background-color: #212529;
   font-family: 'Poppins', sans-serif;
   line-height: 1;
-  color: #212529;
+  color: #e9ecef;
 }
 
 .wrapper {
@@ -36,7 +37,7 @@ h1 {
   padding: 1.5rem;
   height: 7rem;
   width: 28rem;
-  border: 2px solid #000;
+  border: 2px solid #e9ecef;
   border-collapse: separate;
   text-align: center;
 }
@@ -61,8 +62,8 @@ span {
 textarea {
   width: 56rem;
   height: 14rem;
-  resize: none;
   outline: none;
-  border: 2px solid #000;
+  resize: none;
   padding: 0.7rem;
+  background-color: #e9ecef;
 }
