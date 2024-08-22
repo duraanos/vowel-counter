@@ -13,9 +13,13 @@ const countLetters = function () {
   let numVowels = 0;
   let numConsonants = 0;
 
-  [...newText].forEach(letter =>
-    vowelsArr.includes(letter) ? numVowels++ : numConsonants++
-  );
+  [...newText]
+    .filter((value, index, self) =>
+      vowelsArr.includes(value) ? value : self.indexOf(value) === index
+    )
+    .forEach(letter =>
+      vowelsArr.includes(letter) ? numVowels++ : numConsonants++
+    );
 
   vowels.textContent = numVowels;
   consonants.textContent = numConsonants;
