@@ -9,7 +9,7 @@ const punctuations = /[.,?\/#!$%\^&\*;:{}=\-_`~()]/g;
 
 const countLetters = function () {
   const text = textarea.value;
-  const newText = text.trim().replace(punctuations, '');
+  const newText = text.replace(' ', '').replace(punctuations, '');
   let numVowels = 0;
   let numConsonants = 0;
 
