@@ -35,10 +35,13 @@ const countVowels = function () {
   const text = textarea.value;
   const newText = text.replace(' ', '').replace(punctuations, '');
 
-  const eachVowels = [...newText.toLowerCase()].reduce((acc, char) => {
-    if (vowelsArr.includes(char)) acc[char] = (acc[char] || 0) + 1;
-    return acc;
-  }, {});
+  const eachVowels = [...newText.toLowerCase()].reduce(
+    (acc, char) => {
+      if (vowelsArr.includes(char)) acc[char] = (acc[char] || 0) + 1;
+      return acc;
+    },
+    { a: 0, e: 0, i: 0, o: 0, u: 0 }
+  );
 
   const vowelsObj = eachVowels;
   console.log(vowelsObj);
