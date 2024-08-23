@@ -13,7 +13,7 @@ const countChars = function () {
   let numVowels = 0;
   let numConsonants = 0;
 
-  [...newText]
+  [...newText.toLowerCase()]
     .filter((value, index, self) =>
       vowelsArr.includes(value) ? value : self.indexOf(value) === index
     )
