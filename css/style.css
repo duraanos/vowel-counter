@@ -69,3 +69,22 @@ textarea {
   color: #e9ecef;
   border: 2px solid #e9ecef;
 }
+
+.vowels-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vowels-container > div {
+  padding: 1.5rem;
+  height: 7rem;
+  width: 14rem;
+  border: 2px solid #e9ecef;
+  border-collapse: separate;
+  text-align: center;
+}
+
+.vowels-container > div:nth-child(n + 2) {
+  border-left: 0;
+}
