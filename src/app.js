@@ -17,8 +17,8 @@ const countChars = function () {
     .filter((value, index, self) =>
       vowelsArr.includes(value) ? value : self.indexOf(value) === index
     )
-    .forEach(letter =>
-      vowelsArr.includes(letter) ? numVowels++ : numConsonants++
+    .forEach(char =>
+      vowelsArr.includes(char) ? numVowels++ : numConsonants++
     );
 
   vowels.textContent = numVowels;
