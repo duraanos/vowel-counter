@@ -25,4 +25,30 @@ const countChars = function () {
   consonants.textContent = numConsonants;
 };
 
+const countVowels = function () {
+  const numA = document.querySelector('.a-count');
+  const numE = document.querySelector('.e-count');
+  const numI = document.querySelector('.i-count');
+  const numO = document.querySelector('.o-count');
+  const numU = document.querySelector('.u-count');
+
+  const text = textarea.value;
+  const newText = text.replace(' ', '').replace(punctuations, '');
+
+  const eachVowels = [...newText.toLowerCase()].reduce((acc, char) => {
+    if (vowelsArr.includes(char)) acc[char] = (acc[char] || 0) + 1;
+    return acc;
+  }, {});
+
+  const vowelsObj = eachVowels;
+  console.log(vowelsObj);
+
+  numA.textContent = vowelsObj.a;
+  numE.textContent = vowelsObj.e;
+  numI.textContent = vowelsObj.i;
+  numO.textContent = vowelsObj.o;
+  numU.textContent = vowelsObj.u;
+};
+
 textarea.addEventListener('input', countChars);
+textarea.addEventListener('input', countVowels);
