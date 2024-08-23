@@ -44,7 +44,6 @@ const countVowels = function () {
   );
 
   const vowelsObj = eachVowels;
-  console.log(vowelsObj);
 
   numA.textContent = vowelsObj.a;
   numE.textContent = vowelsObj.e;
