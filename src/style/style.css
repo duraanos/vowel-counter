@@ -81,6 +81,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
 .vowels-container > div {
@@ -91,4 +92,23 @@ textarea {
   border-collapse: separate;
   text-align: center;
   margin-right: 1rem;
+}
+
+.words-letters-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.words-letters-container > div {
+  padding: 1.5rem;
+  height: 7rem;
+  width: 28rem;
+  border: 2px solid #e9ecef;
+  border-collapse: separate;
+  text-align: center;
+}
+
+.words-letters-container > div:nth-child(n + 2) {
+  border-left: 0;
 }
