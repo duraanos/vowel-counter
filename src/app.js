@@ -1,15 +1,15 @@
 import { TEXTAREA, VOWELS_ARR, PUNCTUATIONS } from './config.js';
+import { generateText } from './helpers.js';
 
 const vowels = document.querySelector('.vowels-count');
 const consonants = document.querySelector('.consonants-count');
 
 const countChars = function () {
-  const text = TEXTAREA.value;
-  const newText = text.replace(' ', '').replace(PUNCTUATIONS, '');
+  const newText = generateText();
   let numVowels = 0;
   let numConsonants = 0;
 
-  [...newText.toLowerCase()]
+  [...newText]
     .filter((value, index, self) =>
       VOWELS_ARR.includes(value) ? value : self.indexOf(value) === index
     )
