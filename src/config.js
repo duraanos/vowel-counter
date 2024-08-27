@@ -1,3 +1,3 @@
-const TEXTAREA = document.querySelector('textarea');
-const VOWELS_ARR = ['a', 'e', 'i', 'o', 'u'];
-const PUNCTUATIONS = /[.,?\/#!$%\^&\*;:{}=\-_`~()]/g;
+export const TEXTAREA = document.querySelector('textarea');
+export const VOWELS_ARR = ['a', 'e', 'i', 'o', 'u'];
+export const PUNCTUATIONS = /[.,?\/#!$%\^&\*;:{}=\-_`~()]/g;
