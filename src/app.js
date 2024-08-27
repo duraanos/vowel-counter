@@ -1,5 +1,7 @@
-import { TEXTAREA, VOWELS_ARR, PUNCTUATIONS } from './config.js';
+import { TEXTAREA, VOWELS_ARR, PUNCTUATIONS, TEXTAREA } from './config.js';
 import { generateText } from './helpers.js';
+import { countVowels } from "./vowels.js";
+
 
 const vowels = document.querySelector('.vowels-count');
 const consonants = document.querySelector('.consonants-count');
@@ -21,4 +23,7 @@ const countChars = function () {
   consonants.textContent = numConsonants;
 };
 
+
 TEXTAREA.addEventListener('input', countChars);
+TEXTAREA.addEventListener('input', countVowels);
+
