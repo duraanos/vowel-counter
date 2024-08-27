@@ -1,4 +1,4 @@
-'use strict';
+import { countVowels } from "./vowels.js";
 
 const vowels = document.querySelector('.vowels-count');
 const consonants = document.querySelector('.consonants-count');
