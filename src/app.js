@@ -2,10 +2,7 @@
 
 const vowels = document.querySelector('.vowels-count');
 const consonants = document.querySelector('.consonants-count');
-const textarea = document.querySelector('textarea');
 
-const vowelsArr = ['a', 'e', 'i', 'o', 'u'];
-const punctuations = /[.,?\/#!$%\^&\*;:{}=\-_`~()]/g;
 
 const countChars = function () {
   const text = textarea.value;
