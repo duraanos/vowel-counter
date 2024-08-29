@@ -8,9 +8,11 @@ Introducing the vowel counter application, a versatile text analysis tool design
 - Count the total number of vowels in the text area
 - Count the total number of each vowel in the text area
 - Count the total number of consonants in the text area
-- Does not count more than one consonant
 - Count the total number of words in the text area
 - Count the total number of letters in the text area
+- Does not count more than one consonant
+- Does not count any space
+- Does not count any punctuation
 
 ## Overview
 
