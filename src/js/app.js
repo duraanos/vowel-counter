@@ -18,7 +18,7 @@ const countChars = function () {
     )
     .forEach(char => {
       if (VOWELS_ARR.includes(char)) numVowels++;
-      if (char !== ' ') numConsonants++;
+      if (!VOWELS_ARR.includes(char) && char !== ' ') numConsonants++;
     });
 
   vowels.textContent = numVowels;
