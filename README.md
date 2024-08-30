@@ -61,6 +61,7 @@ Moreover, the Vowel counter app is an invaluable resource for language learners 
 ## Installation
 1. On GitHub.com, navigate to the main page of the repository
 2. Above the list of files, click <> **Code**
+
 ![project-image-2](https://github.com/user-attachments/assets/69fbb73c-3d9f-4c5f-8c0a-9aacad26b4ae)
 3. Copy the URL for the repository.
 
@@ -69,7 +70,7 @@ Moreover, the Vowel counter app is an invaluable resource for language learners 
    - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click
 
    - To clone a repository using GitHub CLI, click GitHub CLI, then click
-   
+
 ![project-image-3](https://github.com/user-attachments/assets/66e62af2-b119-4f61-8f3a-a536c8685c46)
 
 4. Open Git Bash.
