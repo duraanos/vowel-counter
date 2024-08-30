@@ -100,3 +100,7 @@ https://github.com/user-attachments/assets/58ce931e-1c8e-4c21-94f3-77792a2d2c02
 ## Conclusion
 In conclusion, the vowel counter application serves as an efficient and user-friendly text analysis tool for identifying and counting vowels within text. This vowel counting software not only aids in linguistic studies and educational purposes but also enhances text processing tasks by providing quick and accurate vowel counts. Its intuitive interface and robust functionality make it accessible to users of all skill levels, from students to professionals. By simplifying the process of counting vowels in text, this vowel counter app contributes to a deeper understanding of language patterns and supports various academic and professional endeavors.
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
