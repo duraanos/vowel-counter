@@ -63,6 +63,7 @@ Moreover, the Vowel counter app is an invaluable resource for language learners 
 2. Above the list of files, click <> **Code**
 
 ![project-image-2](https://github.com/user-attachments/assets/69fbb73c-3d9f-4c5f-8c0a-9aacad26b4ae)
+
 3. Copy the URL for the repository.
 
    - To clone the repository using HTTPS, under "HTTPS", click
