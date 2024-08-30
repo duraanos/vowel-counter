@@ -57,3 +57,37 @@ TEXTAREA.addEventListener('input', countLetters);
 In today’s digital age, the ability to analyze and understand text composition is more important than ever. Whether you’re a writer aiming to refine your prose, a student working on language assignments, or a professional seeking to improve communication skills, having a reliable text analysis tool to break down the elements of your text can be incredibly beneficial. The vowel counter app is designed to meet this need by providing a comprehensive analysis of vowels and consonants, as well as detailed statistics on words and letters. This online vowel counter not only helps users identify patterns and improve their writing but also enhances their overall understanding of text composition.
 
 Moreover, the Vowel counter app is an invaluable resource for language learners and educators. By offering precise statistics on text composition, it allows users to focus on specific areas of improvement, such as vowel usage or word count. This targeted approach can significantly accelerate the learning process and make language study more efficient and enjoyable. With its user-friendly interface and accurate results, the vowel counter app empowers users to take control of their linguistic development, making it an essential text statistics calculator for anyone looking to enhance their writing and communication skills.
+
+## Installation
+1. On GitHub.com, navigate to the main page of the repository
+2. Above the list of files, click <> **Code**
+![project-image-2](https://github.com/user-attachments/assets/69fbb73c-3d9f-4c5f-8c0a-9aacad26b4ae)
+3. Copy the URL for the repository.
+
+   - To clone the repository using HTTPS, under "HTTPS", click
+
+   - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click
+
+   - To clone a repository using GitHub CLI, click GitHub CLI, then click
+![project-image-3](https://github.com/user-attachments/assets/66e62af2-b119-4f61-8f3a-a536c8685c46)
+
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type `git clone`, and then paste the URL you copied earlier.
+   ```
+   https://github.com/duraanos/vowel-counter.git
+   ```
+7. Press **Enter** to create your local clone
+   ```bash
+
+   $ git clone https://github.com/duraanos/vowel-counter.git
+   Cloning into 'vowel-counter'...
+   remote: Enumerating objects: 308, done.
+   remote: Counting objects: 100% (130/130), done.
+   remote: Compressing objects: 100% (94/94), done.
+   Rremote: Total 308 (delta 65), reused 95 (delta 32), pack- 
+   reused 178 (from 1)
+   Receiving objects: 100% (308/308), 32.46 KiB | 443.00 KiB/s, done.
+   Resolving deltas: 100% (153/153), done.
+
+   ```
