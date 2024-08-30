@@ -91,3 +91,9 @@ Moreover, the Vowel counter app is an invaluable resource for language learners 
    Resolving deltas: 100% (153/153), done.
 
    ```
+
+## Usage 
+https://github.com/user-attachments/assets/a3e45363-7e78-43ca-a058-8abe6bd5295c
+    
+https://github.com/user-attachments/assets/58ce931e-1c8e-4c21-94f3-77792a2d2c02
+
